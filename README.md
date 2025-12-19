@@ -41,7 +41,7 @@
 ### Gauss Elimination Method
 
 #### Gauss Elimination Theory
-[Add your theory content here]
+this is gauss eli
 
 #### Gauss Elimination Code
 ```python
