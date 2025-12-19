@@ -44,7 +44,7 @@
 this is gauss eli
 
 #### Gauss Elimination Code
--[code](#ass-2/natures-platter-main/natures-platter-desktop.png)
+-[code](Solution Of Linear equations\Gauss Elimination\)
 
 #### Gauss Elimination Input
 ```
