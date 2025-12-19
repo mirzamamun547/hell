@@ -44,9 +44,7 @@
 this is gauss eli
 
 #### Gauss Elimination Code
-```python
-# Add your code here
-```
+ass-2/natures-platter-main/assets/index.html
 
 #### Gauss Elimination Input
 ```
