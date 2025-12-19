@@ -44,7 +44,7 @@
 this is gauss eli
 
 #### Gauss Elimination Code
--[code](#ass-2/natures-platter-main/assets/index.html)
+-[code](#https://github.com/mirzamamun547/hell/blob/main/ass-2/natures-platter-main/natures-platter-desktop.png)
 
 #### Gauss Elimination Input
 ```
