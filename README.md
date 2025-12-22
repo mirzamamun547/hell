@@ -126,7 +126,11 @@ where each term accounts for higher-order variations of the data.
 
 ##### Newton's Forward Interpolation Application
 ```
-[Add your output format here]
+Uses:
+- Estimating intermediate values
+- Function approximation from tabulated data
+- Numerical computations in engineering problems
+- Scientific data analysis
 ```
 
 #### Newton's Forward Interpolation Code
@@ -235,7 +239,11 @@ Explanation of terms:
 ```
 ##### Newton's Backward Interpolation Application
 ```
-[Add your output format here]
+
+Uses:
+- Estimating values near the end of datasets
+- Predicting values close to the last data point
+- Numerical analysis and table-based computation
 ```
 
 #### Newton's Backward Interpolation Code
@@ -337,7 +345,11 @@ where:
 
 ##### divided difference Application
 ```
-[Add your output format here]
+Uses:
+- Interpolation with irregular datasets
+- Polynomial construction from scattered data
+- Scientific and engineering calculations
+- Function approximation without equal spacing
 ```
 
 #### divided difference Code
@@ -449,14 +461,12 @@ Solving these equations gives the values of \(a\) and \(b\).
 ---
 #####  least square regression method for linear equations application
 ```
-Used For
-
-Fitting a straight line
-
-𝑦=𝑎+𝑏𝑥
-y=a+bx
-
-to experimental or observed data
+Uses:
+- Predicting values based on a straight-line trend
+- Modeling relationships between two variables
+- Data fitting in experimental and statistical analysis
+- Estimating unknown values from observed data
+- Simple forecasting problems
 ```
 ####  least square regression method for linear equations Code
 ```python
@@ -548,7 +558,14 @@ equations are similar to linear equaton
 ---
 
 #####  least square regression method for transcendental equations application
-
+```
+Uses:
+- Population growth modeling
+- Radioactive decay analysis
+- Chemical reaction rate modeling
+- Economic growth analysis
+- Biological and physical processes
+```
 ####  least square regression method for transcendental equations Code
 ```python
 #include <bits/stdc++.h>
@@ -693,7 +710,14 @@ y = a0 + a1*x + a2*x^2 + ... + an*x^n
 
 7. Use the polynomial to predict y for any given x.
 ##### least-square-regression-method-for-polynomial-equations-application
-
+```
+Uses:
+- Modeling non-linear relationships
+- Curve fitting in engineering and scientific data
+- Approximating complex functions
+- Data smoothing and interpolation
+- Reducing error where linear regression fails
+- ```
  #### least square regression method for Polynomial equations Code
 ```python
 #include <bits/stdc++.h>
