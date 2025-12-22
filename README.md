@@ -909,4 +909,7 @@ a2 = 1.000000
 
 - [Newton's Divided Difference Interpolation](https://github.com/Hirobi98/Numerical_methods_terminal_app/blob/main/Interpolation/Newton%27s%20Divided_difference/code.cpp)
 
+- [Linear Regression](https://github.com/Hirobi98/Numerical_methods_terminal_app/blob/main/Curve%20Fitting/Linear%20Regression/linear.cpp)
 
+- [Polynomial Equation](https://github.com/Hirobi98/Numerical_methods_terminal_app/blob/main/Curve%20Fitting/Polynomial%20Equation/polynomial.cpp)
+- [Transcendental Equation](https://github.com/Hirobi98/Numerical_methods_terminal_app/blob/main/Curve%20Fitting/Transcendental%20Equation/exponential.cpp)
