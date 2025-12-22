@@ -406,7 +406,9 @@ where each term accounts for higher-order variations of the data.
 
 #### Newton's Forward Interpolation Code
 
-
+```python
+# Add your code here
+```
 #### Newton's Forward Interpolation Input
 ```
 [Add your output format here]
@@ -474,7 +476,9 @@ Explanation of terms:
 ```
 
 #### Newton's Backward Interpolation Code
-
+```python
+# Add your code here
+```
 
 #### Newton's Backward Interpolation Input
 ```
@@ -537,13 +541,87 @@ where:
 ```
 
 #### divided difference Code
-
+```python
+# Add your code here
+```
 
 #### divided difference Input
 ```
 [Add your output format here]
 ```
 #### divided difference Output
+```
+[Add your output format here]
+```
+
+
+
+
+
+
+# least square regression method for Polynomial Regression
+
+## least square regression method for Polynomial Regression – Introduction
+Polynomial regression is a statistical method used to fit a higher-degree polynomial to a set of data points. Unlike linear regression, which fits a straight line, polynomial regression can capture curvature in the data.  
+
+The assumed form of the polynomial is:
+
+y = a0 + a1*x + a2*x^2 + a3*x^3 + ... + an*x^n
+
+Where:  
+- a0, a1, a2, ..., an are the coefficients of the polynomial  
+- n is the degree of the polynomial  
+
+The coefficients are determined such that the sum of the squares of the differences between the observed values and the predicted values is minimized.
+
+---
+
+## least square regression method for Polynomial Regression – Formula 
+For a polynomial of degree n, the **normal equations** are:
+
+Σy = n*a0 + a1*Σx + a2*Σx^2 + ... + an*Σx^n
+
+Σ(x*y) = a0*Σx + a1*Σx^2 + a2*Σx^3 + ... + an*Σx^(n+1)
+
+Σ(x^2*y) = a0*Σx^2 + a1*Σx^3 + a2*Σx^4 + ... + an*Σx^(n+2)
+
+...
+
+Σ(x^n*y) = a0*Σx^n + a1*Σx^(n+1) + a2*Σx^(n+2) + ... + an*Σx^(2n)
+
+Solve these equations simultaneously to determine the coefficients a0, a1, ..., an.
+
+---
+
+## least square regression method for Polynomial Regression – Procedure
+1. Collect the data points (x, y).  
+2. Decide the degree n of the polynomial.  
+3. Compute the required sums: Σx, Σx^2, ..., Σx^(2n), Σy, Σ(x*y), Σ(x^2*y), ..., Σ(x^n*y).  
+4. Form the normal equations:
+
+Σy = n*a0 + a1*Σx + a2*Σx^2 + ... + an*Σx^n  
+Σ(x*y) = a0*Σx + a1*Σx^2 + a2*Σx^3 + ... + an*Σx^(n+1)  
+Σ(x^2*y) = a0*Σx^2 + a1*Σx^3 + a2*Σx^4 + ... + an*Σx^(n+2)  
+...  
+Σ(x^n*y) = a0*Σx^n + a1*Σx^(n+1) + a2*Σx^(n+2) + ... + an*Σx^(2n)  
+
+5. Solve the normal equations simultaneously to find the coefficients a0, a1, ..., an.  
+6. Construct the regression polynomial:
+
+y = a0 + a1*x + a2*x^2 + ... + an*x^n  
+
+7. Use the polynomial to predict y for any given x.
+
+ #### least square regression method for Polynomial Regression Code
+```python
+# Add your code here
+```
+
+#### least square regression method for Polynomial Regression Input
+```
+[Add your output format here]
+```
+#### least square regression method for Polynomial Regression Output
 ```
 [Add your output format here]
 ```
