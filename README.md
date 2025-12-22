@@ -638,11 +638,34 @@ Solving these equations gives the values of \(a\) and \(b\).
 #### least square regression method for transcendental equations theory
 
 ##### least square regression method for transcendental equations Introduction
+Transcendental equations are equations involving transcendental functions such as exponential, logarithmic, trigonometric, or combinations of these, e.g.,  
 
+\[
+f(x) = e^x - 3x = 0
+\]
+
+These equations cannot be solved analytically in most cases. Numerical methods are used to approximate the roots of the equation. Common methods include:  
+- Bisection Method  
+- False Position (Regula Falsi) Method  
+- Newton-Raphson Method  
+- Secant Method  
+
+---
 
 #####  least square regression method for transcendental equations Formula 
-
+y=ae^bx
+y=ax^b
+equations are similar to linear equaton
 #####  least square regression method for transcendental equations steps
+1. Select an initial guess or interval depending on the method.  
+2. Evaluate the function \(f(x)\) at required points.  
+3. Apply the iterative formula specific to the chosen method.  
+4. Check for convergence:  
+   \(|x_{n+1} - x_n| < \text{tolerance}\) or \(|f(x_{n+1})| < \text{tolerance}\).  
+5. Repeat steps 2–4 until convergence.  
+6. Report \(x_{root}\) as the approximate solution.
+
+---
 
 #####  least square regression method for transcendental equations application
 
