@@ -684,11 +684,34 @@ int main() {
 
 ####  least square regression method for transcendental equations Input
 ```
-[Add your output format here]
+5
+1 2 3 4 5
+50 80 96 120 145
+6
+
+```
+```
+5
+→ Number of observations (n)
+
+1 2 3 4 5
+→ Values of the independent variable t
+
+50 80 96 120 145
+→ Corresponding values of the dependent variable T
+
+6
+→ Value of t at which T is to be estimated
+
 ```
 ####  least square regression method for transcendental equations Output
 ```
-[Add your output format here]
+Computed parameters:
+a = 5.7492444036
+b = 41.0586716201
+
+Estimated T(6.0000000000) = 189.7614442461
+
 ```
 
 
@@ -838,9 +861,27 @@ int main() {
 
 #### least square regression method for Polynomial equations Input
 ```
-[Add your output format here]
+5 2
+1 2 3 4 5
+6 11 18 27 38
+
+```
+```
+5 2
+→ n = Number of data points
+→ degree = Degree of the polynomial
+
+1 2 3 4 5
+→ Values of the independent variable x
+
+6 11 18 27 38
+→ Corresponding values of the dependent variable y
+
 ```
 #### least square regression method for Polynomial equations Output
 ```
-[Add your output format here]
+a0 = 3.000000
+a1 = 2.000000
+a2 = 1.000000
+
 ```
