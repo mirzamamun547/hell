@@ -564,22 +564,22 @@ where:
 ##### least square regression method for linear equations Introduction
 
 
-#####  least square regression method for linear equation Formula 
+#####  least square regression method for linear equations Formula 
 
-#####  least square regression method for linear equation steps
+#####  least square regression method for linear equations steps
 
-#####  least square regression method for linear equation application
+#####  least square regression method for linear equations application
 
-####  least square regression method for linear equation Code
+####  least square regression method for linear equations Code
 ```python
 # Add your code here
 ```
 
-####  least square regression method for linear equation Input
+####  least square regression method for linear equations Input
 ```
 [Add your output format here]
 ```
-####  least square regression method for linear equation Output
+####  least square regression method for linear equations Output
 ```
 [Add your output format here]
 ```
