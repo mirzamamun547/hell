@@ -80,6 +80,7 @@ The method uses forward differences of the function values to construct the inte
 
 
 ##### Newton's Forward Interpolation Formula
+```
 Interpolation formula:
 
 y = y0 + p*Δy0 + (p*(p-1)/2!)*Δ²y0 + (p*(p-1)*(p-2)/3!)*Δ³y0 + ...
@@ -98,7 +99,7 @@ Explanation of terms:
 
 This formula estimates y at x by successively adding terms involving forward differences,
 where each term accounts for higher-order variations of the data.
-
+```
 
 
 ##### Newton's Forward Interpolation Algorithm Steps
@@ -212,6 +213,7 @@ Explanation of terms:
 ```
 
 ##### Newton's Backward Interpolation Algorithm Steps
+```
 1. Arrange the data:
    Ensure that the independent variable values x0, x1, ..., xn are equally spaced.
 
@@ -230,7 +232,7 @@ Explanation of terms:
 5. Evaluate higher-order terms if necessary:
    Include as many terms as needed for the desired accuracy.
 
-
+```
 ##### Newton's Backward Interpolation Application
 ```
 [Add your output format here]
@@ -316,7 +318,7 @@ where:
 ```
 
 ##### divided difference Steps
-
+```
 1. Arrange the data:
    List the data points (x0, y0), (x1, y1), ..., (xn, yn).
 
@@ -331,7 +333,7 @@ where:
 4. Evaluate P(x) at the required value of x:
    Substitute the computed divided differences and the value of x to get the interpolated value of y.
 
-
+```
 
 ##### divided difference Application
 ```
@@ -395,7 +397,7 @@ int main() {
 
 ##### least square regression method for linear equations Introduction
 Linear regression is used to model the relationship between a dependent variable \(y\) and an independent variable \(x\) by fitting a straight line to the observed data.  
-
+```
 The line is represented as:
 
 \[
@@ -405,12 +407,13 @@ y = a + bx
 Where:  
 - \(a\) = y-intercept  
 - \(b\) = slope of the line  
-
+```
 The objective is to find the best-fit line that minimizes the sum of squared errors between observed and predicted values.
 
 ---
 
 #####  least square regression method for linear equations Formula 
+```
 The coefficients \(a\) and \(b\) are obtained from the **normal equations**:
 
 \[
@@ -429,7 +432,7 @@ Where:
 - \(\sum x^2\) = sum of squares of x-values  
 
 Solving these equations gives the values of \(a\) and \(b\).
-
+```
 ---
 
 
@@ -445,6 +448,7 @@ Solving these equations gives the values of \(a\) and \(b\).
 
 ---
 #####  least square regression method for linear equations application
+```
 Used For
 
 Fitting a straight line
@@ -453,6 +457,7 @@ Fitting a straight line
 y=a+bx
 
 to experimental or observed data
+```
 ####  least square regression method for linear equations Code
 ```python
 #include <bits/stdc++.h>
@@ -512,11 +517,11 @@ int main() {
 
 ##### least square regression method for transcendental equations Introduction
 Transcendental equations are equations involving transcendental functions such as exponential, logarithmic, trigonometric, or combinations of these, e.g.,  
-
+```
 \[
 f(x) = e^x - 3x = 0
 \]
-
+```
 These equations cannot be solved analytically in most cases. Numerical methods are used to approximate the roots of the equation. Common methods include:  
 - Bisection Method  
 - False Position (Regula Falsi) Method  
@@ -526,9 +531,11 @@ These equations cannot be solved analytically in most cases. Numerical methods a
 ---
 
 #####  least square regression method for transcendental equations Formula 
+```
 y=ae^bx
 y=ax^b
 equations are similar to linear equaton
+```
 #####  least square regression method for transcendental equations steps
 1. Select an initial guess or interval depending on the method.  
 2. Evaluate the function \(f(x)\) at required points.  
@@ -649,7 +656,8 @@ The coefficients are determined such that the sum of the squares of the differen
 
 ---
 
-##### least square regression method for Polynomial equations – Formula 
+##### least square regression method for Polynomial equations – Formula
+```
 For a polynomial of degree n, the **normal equations** are:
 
 Σy = n*a0 + a1*Σx + a2*Σx^2 + ... + an*Σx^n
@@ -663,7 +671,7 @@ For a polynomial of degree n, the **normal equations** are:
 Σ(x^n*y) = a0*Σx^n + a1*Σx^(n+1) + a2*Σx^(n+2) + ... + an*Σx^(2n)
 
 Solve these equations simultaneously to determine the coefficients a0, a1, ..., an.
-
+```
 ---
 
 ##### least square regression method for Polynomial equations – steps
