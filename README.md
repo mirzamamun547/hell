@@ -562,12 +562,56 @@ where:
 #### least square regression method for linear equations theory
 
 ##### least square regression method for linear equations Introduction
+Linear regression is used to model the relationship between a dependent variable \(y\) and an independent variable \(x\) by fitting a straight line to the observed data.  
 
+The line is represented as:
+
+\[
+y = a + bx
+\]
+
+Where:  
+- \(a\) = y-intercept  
+- \(b\) = slope of the line  
+
+The objective is to find the best-fit line that minimizes the sum of squared errors between observed and predicted values.
+
+---
 
 #####  least square regression method for linear equations Formula 
+The coefficients \(a\) and \(b\) are obtained from the **normal equations**:
+
+\[
+\sum y = n a + b \sum x
+\]
+
+\[
+\sum xy = a \sum x + b \sum x^2
+\]
+
+Where:  
+- \(n\) = number of data points  
+- \(\sum x\) = sum of x-values  
+- \(\sum y\) = sum of y-values  
+- \(\sum xy\) = sum of product of x and y  
+- \(\sum x^2\) = sum of squares of x-values  
+
+Solving these equations gives the values of \(a\) and \(b\).
+
+---
+
 
 #####  least square regression method for linear equations steps
+1. Input data points \((x_i, y_i)\) for \(i = 1, 2, ..., n\).  
+2. Compute the sums: \(\sum x\), \(\sum y\), \(\sum xy\), \(\sum x^2\).  
+3. Form the normal equations:  
+   - \(\sum y = n a + b \sum x\)  
+   - \(\sum xy = a \sum x + b \sum x^2\)  
+4. Solve the equations simultaneously to find \(a\) and \(b\).  
+5. The best-fit line is \(y = a + bx\).  
+6. Optionally, calculate predicted \(y_i\) for each \(x_i\) to compare with observed values.
 
+---
 #####  least square regression method for linear equations application
 
 ####  least square regression method for linear equations Code
