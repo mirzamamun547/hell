@@ -902,10 +902,11 @@ a2 = 1.000000
 ```
 
 
-- [Solution Of Non-Linear Equations](https://github.com/Hirobi98/Numerical_methods_terminal_app/tree/main/Solution%20Of%20Non-Linear%20Equations)
-  - [Bisection Method](https://github.com/Hirobi98/Numerical_methods_terminal_app/blob/main/Solution%20Of%20Non-Linear%20Equations/<bisection>.cpp)
-  - [False Position Method](https://github.com/Hirobi98/Numerical_methods_terminal_app/blob/main/Solution%20Of%20Non-Linear%20Equations/<false_position>.cpp)
-  - [Secant Method](https://github.com/Hirobi98/Numerical_methods_terminal_app/blob/main/Solution%20Of%20Non-Linear%20Equations/<secant>.cpp)
-  - [Newton Raphson Method](https://github.com/Hirobi98/Numerical_methods_terminal_app/blob/main/Solution%20Of%20Non-Linear%20Equations/Newton_raphson/code.cpp)
+- [Newton's Backward Interpolation](https://github.com/Hirobi98/Numerical_methods_terminal_app/blob/main/Interpolation/Newton%27s%20Backward%20Interpolation/code.cpp)
+
+
+- [Newton's Forward Interpolation](https://github.com/Hirobi98/Numerical_methods_terminal_app/blob/main/Interpolation/Newton%27s%20Forward%20Interpolation/code.cpp)
+
+- [Newton's Divided Difference Interpolation](https://github.com/Hirobi98/Numerical_methods_terminal_app/blob/main/Interpolation/Newton%27s%20Divided_difference/code.cpp)
 
 
