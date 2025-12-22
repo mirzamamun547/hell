@@ -177,15 +177,28 @@ int main() {
 ```
 #### Newton's Forward Interpolation Input
 ```
-[Add your output format here]
+5
+0 1 2 3 4
+1 2 4 8 16
+2.5
+```
+```
+5
+→ Number of data points (n)
+
+0 1 2 3 4
+→ Values of the independent variable x (equally spaced)
+
+1 2 4 8 16
+→ Corresponding values of the dependent variable y
+
+2.5
+→ Value of x at which interpolation is required
 ```
 #### Newton's Forward Interpolation Output
 ```
-[Add your output format here]
+5.648438
 ```
-
-
-
 
 ### Newton's Backward Interpolation Method
 
@@ -290,11 +303,29 @@ int main() {
 
 #### Newton's Backward Interpolation Input
 ```
-[Add your output format here]
+5
+0 1 2 3 4
+1 2 4 8 16
+3.5
+```
+```
+5
+→ Number of data points (n)
+
+0 1 2 3 4
+→ Values of the independent variable x (equally spaced)
+
+1 2 4 8 16
+→ Corresponding values of the dependent variable y
+
+3.5
+→ Value of x at which interpolation is required (near the end of the table)
+
 ```
 #### Newton's Backward Interpolation Output
 ```
-[Add your output format here]
+11.313708
+
 ```
 
 
