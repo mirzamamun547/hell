@@ -590,6 +590,34 @@ where:
 
 
 
+### least square regression method for transcendental equations
+#### least square regression method for transcendental equations theory
+
+##### least square regression method for transcendental equations Introduction
+
+
+#####  least square regression method for transcendental equations Formula 
+
+#####  least square regression method for transcendental equations steps
+
+#####  least square regression method for transcendental equations application
+
+####  least square regression method for transcendental equations Code
+```python
+# Add your code here
+```
+
+####  least square regression method for transcendental equations Input
+```
+[Add your output format here]
+```
+####  least square regression method for transcendental equations Output
+```
+[Add your output format here]
+```
+
+
+
 
 
 
