@@ -424,11 +424,31 @@ int main() {
 
 #### divided difference Input
 ```
-[Add your output format here]
+5
+1 2 3 4 5
+3 4 5 6 7
+5.5
 ```
+```
+5
+→ Number of data points (n)
+
+0 1 2 3 4
+→ Values of the independent variable x 
+
+3 4 5 6 7
+→ Corresponding values of the dependent variable y
+
+5.5
+→ Value of x at which interpolation is required 
+
+```
+
+
+
 #### divided difference Output
 ```
-[Add your output format here]
+7.500000
 ```
 
 
