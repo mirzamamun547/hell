@@ -350,21 +350,109 @@ y = a0 + a1*x + a2*x^2 + ... + an*x^n
 
 #### Newton's Forward Interpolation Theory
 ##### Newton's Forward Interpolation Introduction
-[Write your introduction here]
+```
+[Add your output format here]
+```
 
 ##### Newton's Forward Interpolation Formula
-[Write the formula here]
+```
+[Add your output format here]
+```
 
 ##### Newton's Forward Interpolation Algorithm Steps
-[Step by step algorithm]
+```
+[Add your output format here]
+```
 
 ##### Newton's Forward Interpolation Application
-[Write applications]
+```
+[Add your output format here]
+```
 
 #### Newton's Forward Interpolation Code
 
 
 #### Newton's Forward Interpolation Input
-
+```
+[Add your output format here]
+```
 #### Newton's Forward Interpolation Output
+```
+[Add your output format here]
+```
 
+
+
+
+### Newton's Backward Interpolation Method
+
+#### Newton's Backward Interpolation Theory
+##### Newton's Backward Interpolation Introduction
+```
+[Add your output format here]
+```
+
+##### Newton's Backward Interpolation Formula
+```
+[Add your output format here]
+```
+
+##### Newton's Backward Interpolation Algorithm Steps
+```
+[Add your output format here]
+```
+
+##### Newton's Backward Interpolation Application
+```
+[Add your output format here]
+```
+
+#### Newton's Backward Interpolation Code
+
+
+#### Newton's Backward Interpolation Input
+```
+[Add your output format here]
+```
+#### Newton's Backward Interpolation Output
+```
+[Add your output format here]
+```
+
+
+
+
+### divided difference  Method
+
+#### divided difference Theory
+##### divided difference Introduction
+```
+[Add your output format here]
+```
+
+##### divided difference Formula
+```
+[Add your output format here]
+```
+
+##### divided difference Steps
+```
+[Add your output format here]
+```
+
+##### divided difference Application
+```
+[Add your output format here]
+```
+
+#### divided difference Code
+
+
+#### divided difference Input
+```
+[Add your output format here]
+```
+#### divided difference Output
+```
+[Add your output format here]
+```
