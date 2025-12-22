@@ -560,11 +560,26 @@ int main() {
 
 ####  least square regression method for linear equations Input
 ```
-[Add your output format here]
+6
+1 2 3 4 5 6
+3 4 5 6 7 8
+
+```
+```
+6
+→ Number of data points (n)
+
+1 2 3 4 5 6
+→ Values of the independent variable x
+
+3 4 5 6 7 8
+→ Corresponding values of the dependent variable y
+
 ```
 ####  least square regression method for linear equations Output
 ```
-[Add your output format here]
+Linear Regression Line: y = 1.00 x + 2.00
+
 ```
 
 
