@@ -558,7 +558,52 @@ where:
 
 ### solution-of-curve-fitting-model
 
+# least square regression method for linear equations
+# least square regression method for linear equations theory
 
+## least square regression method for linear equations – Introduction
+
+
+## least square regression method for linear equations – Formula 
+
+## least square regression method for linear equations – steps
+
+##### least-square-regression-method-for-linear-equations-application
+
+##### lleast square regression method for linear equations Code
+```python
+# Add your code here
+```
+
+##### least square regression method for linear equations Input
+```
+[Add your output format here]
+```
+##### least square regression method for linear equations Output
+```
+[Add your output format here]
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# least square regression method for Polynomial equations
 # least square regression method for Polynomial equations theory
 
 ## least square regression method for Polynomial equations – Introduction
