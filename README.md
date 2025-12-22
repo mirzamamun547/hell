@@ -351,17 +351,52 @@ y = a0 + a1*x + a2*x^2 + ... + an*x^n
 #### Newton's Forward Interpolation Theory
 ##### Newton's Forward Interpolation Introduction
 ```
-[Add your output format here]
+Newton’s Forward Interpolation method is a numerical technique used to estimate the value of a function at a point when the independent variable values are equally spaced. It is particularly effective when the required value lies near the beginning of the data table.
+The method uses forward differences of the function values to construct the interpolation polynomial.
 ```
 
 ##### Newton's Forward Interpolation Formula
-```
-[Add your output format here]
+```Interpolation formula:
+
+y = y0 + p*Δy0 + (p*(p-1)/2!)*Δ²y0 + (p*(p-1)*(p-2)/3!)*Δ³y0 + ...
+
+where:
+
+p = (x - x0) / h
+
+Explanation of terms:
+
+- y0   : The value of the function at the first data point.
+- Δy0, Δ²y0, Δ³y0, ... : Forward differences of the function values.
+- h    : Spacing between consecutive values of x.
+- x    : The point at which interpolation is required.
+- p    : Ratio of distance from the first data point in units of h.
+
+This formula estimates y at x by successively adding terms involving forward differences,
+where each term accounts for higher-order variations of the data.
+
 ```
 
 ##### Newton's Forward Interpolation Algorithm Steps
 ```
-[Add your output format here]
+1. Arrange the data:
+   Ensure that the independent variable values x0, x1, ..., xn are equally spaced.
+
+2. Construct a forward difference table:
+   Compute the forward differences Δy0, Δ²y0, Δ³y0, ... from the given data.
+
+3. Calculate p:
+   p = (x - x0) / h
+   where x is the value at which interpolation is required
+   and h is the spacing between consecutive x values.
+
+4. Apply the interpolation formula:
+   y = y0 + p*Δy0 + (p*(p-1)/2!)*Δ²y0 + (p*(p-1)*(p-2)/3!)*Δ³y0 + ...
+   Substitute y0, Δy0, Δ²y0, ... and p to compute the interpolated value of y.
+
+5. Evaluate higher-order terms if necessary:
+   Include as many terms as needed for the desired accuracy.
+
 ```
 
 ##### Newton's Forward Interpolation Application
