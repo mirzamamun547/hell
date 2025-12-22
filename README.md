@@ -1,18 +1,32 @@
 # Table of Contents
 
+### Table of Contents
+
 - [Solution of Linear Equations](#solution-of-linear-equations)
   - [Gauss Elimination Method](#gauss-elimination-method)
     - [Theory](#gauss-elimination-theory)
+      - [Introduction](#gauss-elimination-introduction)
+      - [Formula](#gauss-elimination-formula)
+      - [Algorithm Steps](#gauss-elimination-algorithm-steps)
+      - [Application](#gauss-elimination-application)
     - [Code](#gauss-elimination-code)
     - [Input](#gauss-elimination-input)
     - [Output](#gauss-elimination-output)
   - [Gauss Jordan Elimination Method](#gauss-jordan-elimination-method)
     - [Theory](#gauss-jordan-theory)
+      - [Introduction](#gauss-jordan-introduction)
+      - [Formula](#gauss-jordan-formula)
+      - [Algorithm Steps](#gauss-jordan-algorithm-steps)
+      - [Application](#gauss-jordan-application)
     - [Code](#gauss-jordan-code)
     - [Input](#gauss-jordan-input)
     - [Output](#gauss-jordan-output)
   - [LU Decomposition Method](#lu-decomposition-method)
-    - [Theory](#lu-decomposition-theory)
+    - [Theory](#gauss-jordan-theory)
+      - [Introduction](#gauss-jordan-introduction)
+      - [Formula](#gauss-jordan-formula)
+      - [Algorithm Steps](#gauss-jordan-algorithm-steps)
+      - [Application](#gauss-jordan-application)
     - [Code](#lu-decomposition-code)
     - [Input](#lu-decomposition-input)
     - [Output](#lu-decomposition-output)
@@ -33,6 +47,109 @@
     - [Code](#false-position-code)
     - [Input](#false-position-input)
     - [Output](#false-position-output)
+  - [Secant Method](#secant-method)
+    - [Theory](#secant-theory)
+    - [Code](#secant-code)
+    - [Input](#secant-input)
+    - [Output](#secant-output)
+  - [Newton Raphson Method](#newton-raphson-method)
+    - [Theory](#newton-raphson-theory)
+    - [Code](#newton-raphson-code)
+    - [Input](#newton-raphson-input)
+    - [Output](#newton-raphson-output)
+
+- [Solution of Interpolation](#solution-of-interpolation)
+  - [Newton's Forward Interpolation Method](#newtons-forward-interpolation-method)
+    - [Theory](#newtons-forward-interpolation-theory)
+      - [Introduction](#newtons-forward-interpolation-introduction)
+      - [Formula](#newtons-forward-interpolation-formula)
+      - [Algorithm Steps](#newtons-forward-interpolation-algorithm-steps)
+      - [Application](#newtons-forward-interpolation-application)
+    - [Code](#newtons-forward-interpolation-code)
+    - [Input](#newtons-forward-interpolation-input)
+    - [Output](#newtons-forward-interpolation-output)
+  - [Newton's Backward Interpolation Method](#newtons-backward-interpolation-method)
+    - [Theory](#newtons-backward-interpolation-theory)
+      - [Introduction](#newtons-backward-interpolation-introduction)
+      - [Formula](#newtons-backward-interpolation-formula)
+      - [Algorithm Steps](#newtons-backward-interpolation-algorithm-steps)
+      - [Application](#newtons-backward-interpolation-application)
+    - [Code](#newtons-backward-interpolation-code)
+    - [Input](#newtons-backward-interpolation-input)
+    - [Output](#newtons-backward-interpolation-output)
+  - [Divided Difference Method](#divided-difference-method)
+    - [Theory](#divided-difference-theory)
+      - [Introduction](#divided-difference-introduction)
+      - [Formula](#divided-difference-formula)
+      - [Algorithm Steps](#divided-difference-steps)
+      - [Application](#divided-difference-application)
+    - [Code](#divided-difference-code)
+    - [Input](#divided-difference-input)
+    - [Output](#divided-difference-output)
+
+- [Solution of Curve Fitting Model](#solution-of-curve-fitting-model)
+  - [Least Square Regression Method For Linear Equations](#least-square-regression-method-for-linear-equations)
+    - [Theory](#least-square-regression-method-for-linear-equations-theory)
+      - [Introduction](#least-square-regression-method-for-linear-equations-introduction)
+      - [Formula](#least-square-regression-method-for-linear-equationse-formula)
+      - [Algorithm Steps](#least-square-regression-method-for-linear-equations-steps)
+      - [Application](#least-square-regression-method-for-linear-equations-application)
+    - [Code](#least-square-regression-method-for-linear-equations-code)
+    - [Input](#least-square-regression-method-for-linear-equations-input)
+    - [Output](#least-square-regression-method-for-linear-equations-output)
+  - [Least Square Regression Method For Transcendental Equations](#least-square-regression-method-for-transcendental-equations)
+    - [Theory](#least-square-regression-method-for-transcendental-equations-theory)
+      - [Introduction](#least-square-regression-method-for-transcendental-equations-introduction)
+      - [Formula](#least-square-regression-method-for-transcendental-equations-formula)
+      - [Algorithm Steps](#least-square-regression-method-for-transcendental-equations-steps)
+      - [Application](#least-square-regression-method-for-transcendental-equations-application)
+    - [Code](#least-square-regression-method-for-transcendental-equations-code)
+    - [Input](#least-square-regression-method-for-transcendental-equations-input)
+    - [Output](#least-square-regression-method-for-transcendental-equations-output)
+  - [Least Square Regression Method For Polynomial Equations](#least-square-regression-method-for-polynomial-equations)
+    - [Theory](#least-square-regression-method-for-polynomial-equations-theory)
+      - [Introduction](#least-square-regression-method-for-polynomial-equations-introduction)
+      - [Formula](#least-square-regression-method-for-polynomial-equations-formula)
+      - [Algorithm Steps](#least-square-regression-method-for-polynomial-equations-steps)
+      - [Application](#least-square-regression-method-for-polynomial-equations-application)
+    - [Code](#least-square-regression-method-for-polynomial-equations-code)
+    - [Input](#least-square-regression-method-for-polynomial-equations-input)
+    - [Output](#least-square-regression-method-for-polynomial-equations-output)
+
+- [Solution of Differential Equations](#solution-of-differential-equations)
+  - [Equal Interval Interpolation Method](#equal-interval-interpolation-method)
+    - [Theory](#equal-interval-interpolation-theory)
+    - [Code](#equal-interval-interpolation-code)
+    - [Input](#equal-interval-interpolation-input)
+    - [Output](#equal-interval-interpolation-output)
+  - [Second Order Derivative Method](#second-order-derivative-method)
+    - [Theory](#second-order-derivative-theory)
+    - [Code](#second-order-derivative-code)
+    - [Input](#second-order-derivative-input)
+    - [Output](#second-order-derivative-output)
+  - [Runge Kutta Method](#runge-kutta-method)
+    - [Theory](#runge-kutta-theory)
+    - [Code](#runge-kutta-code)
+    - [Input](#runge-kutta-input)
+    - [Output](#runge-kutta-output)
+  - [Numerical Differentiation Method](#numerical-differentiation-method)
+    - [Theory](#numerical-differentiation-theory)
+    - [Code](#numerical-differentiation-code)
+    - [Input](#numerical-differentiation-input)
+    - [Output](#numerical-differentiation-output)
+
+- [Solution of Numerical Integrations](#solution-of-numerical-integrations)
+  - [Simpson's One-Third Rule](#simpsons-one-third-rule)
+    - [Theory](#simpsons-one-third-rule-theory)
+    - [Code](#simpsons-one-third-rule-code)
+    - [Input](#simpsons-one-third-rule-input)
+    - [Output](#simpsons-one-third-rule-output)
+  - [Simpson's Three-Eighths Rule](#simpsons-three-eighths-rule)
+    - [Theory](#simpsons-three-eighths-rule-theory)
+    - [Code](#simpsons-three-eighths-rule-code)
+    - [Input](#simpsons-three-eighths-rule-input)
+    - [Output](#simpsons-three-eighths-rule-output)
+
 
 ---
 
@@ -221,4 +338,33 @@ y = a0 + a1*x + a2*x^2 + ... + an*x^n
 ```
 
 ---
+
+
+
+
+
+
+### Solution of Interpolation
+
+### Newton's Forward Interpolation Method
+
+#### Newton's Forward Interpolation Theory
+##### Newton's Forward Interpolation Introduction
+[Write your introduction here]
+
+##### Newton's Forward Interpolation Formula
+[Write the formula here]
+
+##### Newton's Forward Interpolation Algorithm Steps
+[Step by step algorithm]
+
+##### Newton's Forward Interpolation Application
+[Write applications]
+
+#### Newton's Forward Interpolation Code
+
+
+#### Newton's Forward Interpolation Input
+
+#### Newton's Forward Interpolation Output
 
