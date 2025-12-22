@@ -350,13 +350,13 @@ y = a0 + a1*x + a2*x^2 + ... + an*x^n
 
 #### Newton's Forward Interpolation Theory
 ##### Newton's Forward Interpolation Introduction
-```
+
 Newton’s Forward Interpolation method is a numerical technique used to estimate the value of a function at a point when the independent variable values are equally spaced. It is particularly effective when the required value lies near the beginning of the data table.
 The method uses forward differences of the function values to construct the interpolation polynomial.
-```
+
 
 ##### Newton's Forward Interpolation Formula
-```Interpolation formula:
+Interpolation formula:
 
 y = y0 + p*Δy0 + (p*(p-1)/2!)*Δ²y0 + (p*(p-1)*(p-2)/3!)*Δ³y0 + ...
 
@@ -375,10 +375,10 @@ Explanation of terms:
 This formula estimates y at x by successively adding terms involving forward differences,
 where each term accounts for higher-order variations of the data.
 
-```
+
 
 ##### Newton's Forward Interpolation Algorithm Steps
-```
+
 1. Arrange the data:
    Ensure that the independent variable values x0, x1, ..., xn are equally spaced.
 
@@ -397,7 +397,7 @@ where each term accounts for higher-order variations of the data.
 5. Evaluate higher-order terms if necessary:
    Include as many terms as needed for the desired accuracy.
 
-```
+
 
 ##### Newton's Forward Interpolation Application
 ```
@@ -423,19 +423,50 @@ where each term accounts for higher-order variations of the data.
 
 #### Newton's Backward Interpolation Theory
 ##### Newton's Backward Interpolation Introduction
-```
-[Add your output format here]
-```
+
+Newton’s Backward Interpolation method is used when the data points are equally spaced
+and the required value lies near the end of the data table.
+This method uses backward differences to estimate the value of the function.
+
+
 
 ##### Newton's Backward Interpolation Formula
 ```
-[Add your output format here]
+y = yn + p*∇y_n + (p*(p+1)/2!)*∇²y_n + (p*(p+1)*(p+2)/3!)*∇³y_n + ...
+
+where:
+
+p = (x - xn) / h
+
+Explanation of terms:
+
+- yn    : The value of the function at the last data point.
+- ∇y_n, ∇²y_n, ∇³y_n, ... : Backward differences of the function values.
+- h     : Spacing between consecutive values of x.
+- x     : The point at which interpolation is required.
+- p     : Ratio of distance from the last data point in units of h.
+
 ```
 
 ##### Newton's Backward Interpolation Algorithm Steps
-```
-[Add your output format here]
-```
+1. Arrange the data:
+   Ensure that the independent variable values x0, x1, ..., xn are equally spaced.
+
+2. Construct a backward difference table:
+   Compute the backward differences ∇y_n, ∇²y_n, ∇³y_n, ... from the given data.
+
+3. Calculate p:
+   p = (x - xn) / h
+   where x is the value at which interpolation is required
+   and h is the spacing between consecutive x values.
+
+4. Apply the interpolation formula:
+   y = yn + p*∇y_n + (p*(p+1)/2!)*∇²y_n + (p*(p+1)*(p+2)/3!)*∇³y_n + ...
+   Substitute yn, ∇y_n, ∇²y_n, ... and p to compute the interpolated value of y.
+
+5. Evaluate higher-order terms if necessary:
+   Include as many terms as needed for the desired accuracy.
+
 
 ##### Newton's Backward Interpolation Application
 ```
@@ -461,19 +492,44 @@ where each term accounts for higher-order variations of the data.
 
 #### divided difference Theory
 ##### divided difference Introduction
-```
-[Add your output format here]
-```
+Newton’s Divided Difference Interpolation is used when the data points are unequally spaced.
+It constructs an interpolation polynomial that passes through all the given data points.
+This method uses divided differences to compute the coefficients of the polynomial.
+
 
 ##### divided difference Formula
 ```
-[Add your output format here]
+P(x) = y0 
+       + (x - x0) * f[x0, x1] 
+       + (x - x0)*(x - x1) * f[x0, x1, x2] 
+       + (x - x0)*(x - x1)*(x - x2) * f[x0, x1, x2, x3] 
+       + ...
+
+where:
+
+- y0                  : The value of the function at the first data point.
+- f[x0, x1], f[x0,x1,x2], ... : First, second, and higher-order divided differences.
+- x                    : The point at which interpolation is required.
+
 ```
 
 ##### divided difference Steps
-```
-[Add your output format here]
-```
+
+1. Arrange the data:
+   List the data points (x0, y0), (x1, y1), ..., (xn, yn).
+
+2. Construct a divided difference table:
+   - Compute first-order divided differences: f[xi, xi+1] = (yi+1 - yi) / (xi+1 - xi)
+   - Compute second-order divided differences: f[xi, xi+1, xi+2] = (f[xi+1, xi+2] - f[xi, xi+1]) / (xi+2 - xi)
+   - Continue calculating higher-order divided differences as needed.
+
+3. Form the interpolation polynomial:
+   P(x) = y0 + (x - x0)*f[x0,x1] + (x - x0)*(x - x1)*f[x0,x1,x2] + ...
+
+4. Evaluate P(x) at the required value of x:
+   Substitute the computed divided differences and the value of x to get the interpolated value of y.
+
+
 
 ##### divided difference Application
 ```
