@@ -556,12 +556,12 @@ where:
 
 
 
+### solution-of-curve-fitting-model
 
 
+# least square regression method for Polynomial equations theory
 
-# least square regression method for Polynomial Regression
-
-## least square regression method for Polynomial Regression – Introduction
+## least square regression method for Polynomial equations – Introduction
 Polynomial regression is a statistical method used to fit a higher-degree polynomial to a set of data points. Unlike linear regression, which fits a straight line, polynomial regression can capture curvature in the data.  
 
 The assumed form of the polynomial is:
@@ -576,7 +576,7 @@ The coefficients are determined such that the sum of the squares of the differen
 
 ---
 
-## least square regression method for Polynomial Regression – Formula 
+## least square regression method for Polynomial equations – Formula 
 For a polynomial of degree n, the **normal equations** are:
 
 Σy = n*a0 + a1*Σx + a2*Σx^2 + ... + an*Σx^n
@@ -593,7 +593,7 @@ Solve these equations simultaneously to determine the coefficients a0, a1, ..., 
 
 ---
 
-## least square regression method for Polynomial Regression – Procedure
+## least square regression method for Polynomial equations – steps
 1. Collect the data points (x, y).  
 2. Decide the degree n of the polynomial.  
 3. Compute the required sums: Σx, Σx^2, ..., Σx^(2n), Σy, Σ(x*y), Σ(x^2*y), ..., Σ(x^n*y).  
@@ -611,17 +611,18 @@ Solve these equations simultaneously to determine the coefficients a0, a1, ..., 
 y = a0 + a1*x + a2*x^2 + ... + an*x^n  
 
 7. Use the polynomial to predict y for any given x.
+# least-square-regression-method-for-polynomial-equations-application
 
- #### least square regression method for Polynomial Regression Code
+ #### lleast square regression method for Polynomial equations Code
 ```python
 # Add your code here
 ```
 
-#### least square regression method for Polynomial Regression Input
+#### least square regression method for Polynomial equations Input
 ```
 [Add your output format here]
 ```
-#### least square regression method for Polynomial Regression Output
+#### least square regression method for Polynomial equations Output
 ```
 [Add your output format here]
 ```
