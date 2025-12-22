@@ -561,7 +561,7 @@ where:
 ### least square regression method for linear equations
 #### least square regression method for linear equations theory
 
-##### least square regression method for linear equations – Introduction
+##### least square regression method for linear equations Introduction
 
 
 ##### least square regression method for linear equations – Formula 
